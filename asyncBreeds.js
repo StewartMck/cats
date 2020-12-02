@@ -5,7 +5,7 @@ const breedDetailsFromFile = function(breed, callback) {
     if (!error) {
       callback(data);
     } else {
-      return callback(undefined);
+      callback(undefined);
     }
   });
 };
